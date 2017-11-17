@@ -1,1 +1,1 @@
-afl-fuzz -i tests -o results <path-to-bin> @@
+afl-fuzz -i tests -o results ./djpeg

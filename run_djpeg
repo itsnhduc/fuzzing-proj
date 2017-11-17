@@ -1,1 +1,0 @@
-afl-fuzz -i tests -o results ./target/jpeg-9b/djpeg
