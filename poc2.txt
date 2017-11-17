@@ -1,0 +1,9 @@
+(gdb) run results-online/crash1_CVE-2016-3616
+Starting program: /home/itsnhduc/fuzzing-proj/cjpeg9b results-online/crash1_CVE-2016-3616
+
+Program received signal SIGSEGV, Segmentation fault.
+get_text_gray_row (cinfo=0x7fffffffe2d0, sinfo=<optimized out>) at rdppm.c:153
+153     rdppm.c: No such file or directory.
+(gdb) bt
+#0  get_text_gray_row (cinfo=0x7fffffffe2d0, sinfo=<optimized out>) at rdppm.c:153
+#1  0x00000000004015de in main (argc=2, argv=0x7fffffffe628) at cjpeg.c:642

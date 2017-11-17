@@ -1,0 +1,6 @@
+tsnhduc@instance-1:~/fuzzing-proj$ ./djpeg9b results-simple/hang1
+P6
+65407 65407
+255
+Corrupt JPEG data: premature end of data segment
+U)rW/"Z,#N}}ҿ{|{ʬV]6'?&B&A0I3FDGYIjFyJXܓhߕn~_ފ
