@@ -1,1 +1,1 @@
-afl-fuzz -i tests -o results ./djpeg
+afl-fuzz -i tests -o results ./djpeg9b
